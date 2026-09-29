@@ -17,7 +17,7 @@ indépendant, organisé selon la même convention : `Python/` (scripts d'analyse
 │
 ├── partie_A_gonflement_hydrogel/        gonflement osmotique de billes d'alginate
 │   ├── notes.txt                        vue d'ensemble de la partie
-│   ├── Python/                          plot concentration calcium.py, plot concentration temps.py, untitled1.py
+│   ├── Python/                          plot concentration calcium.py, plot concentration temps.py, Tracé_R(t).py
 │   ├── Images/                          graphiques de synthèse (toutes conditions confondues)
 │   └── Data/                            une mesure par condition (Results.csv + notes.txt),
 │                                         + suivi temporel de la synérèse

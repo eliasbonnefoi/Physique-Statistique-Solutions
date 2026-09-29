@@ -6,14 +6,14 @@ CONTENU DE CE DOSSIER
 Python/ :
   plot concentration calcium.py   -> rayon des billes en fonction de la concentration en Ca2+ (rapport Fig. 2)
   plot concentration temps.py     -> régression exponentielle de la synérèse R(t) = a*exp(-b*t) + c (rapport §2.3.2)
-  untitled1.py                    -> mesure complémentaire du rayon à 3 instants (t=0,5,10 min)
+  Tracé_R(t).py                    -> mesure complémentaire du rayon à 3 instants (t=0,5,10 min)
 
 Images/ (résultats de synthèse) :
   Résultats toute parties.xlsx    -> tableau récapitulatif de toutes les conditions (concentrations + synérèse)
   Rayon toutes parties.png        -> graphique combinant les rayons mesurés pour toutes les conditions
   rayon synerèse eau.png          -> évolution du rayon au cours du temps pour la bille témoin dans l'eau pure
   plot reg exponentielle.png      -> sortie de plot concentration temps.py (régression exponentielle)
-  plot rayon bille en fct temps.png -> sortie de untitled1.py
+  plot rayon bille en fct temps.png -> sortie de Tracé_R(t).py
 
 Data/ :
   Sous-dossiers "5 mM CaCl2" / "10 mM CaCl2" / "20 mM CaCl2" / "30 mM CaCl2" / "50 mM CaCl2" /
