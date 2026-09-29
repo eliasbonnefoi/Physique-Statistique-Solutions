@@ -1,25 +1,30 @@
 PARTIE B — Diffusion de colloïdes
 Voir rapport.pdf, section 3.
 
+Énergie cinétique moyenne mesurée sur les particules trackées (rapport §3.3.1) :
+  - sur 300 spots  : Ec_moy = 7.5288e-27 J
+  - sur 1000 spots : Ec_moy = 7.3888e-27 J
+
 CONTENU DE CE DOSSIER
 
-Partie 2.rtf :
-  Note contenant l'énergie cinétique moyenne mesurée pour les particules trackées :
-    - sur 300 spots  : Ec_moy = 7.5288e-27 J
-    - sur 1000 spots : Ec_moy = 7.3888e-27 J
-
-Sous-dossiers "Colloide silice" / "Colloide latex" :
+Data/Observation latex, Data/Observation silice :
   Observations préliminaires au microscope (rapport §3.2, Fig. 5 et 6) : captures d'écran
   qualitatives, avant tout traitement.
 
-Sous-dossiers "1000 img petit ROI" / "300 img grand roi" :
+Data/ROI petit - 1000 images, Data/ROI grand - 300 images :
   Analyse quantitative du mouvement brownien sur une pile de 1000 images (petite région
   d'intérêt) ou 300 images (grande région d'intérêt) (rapport §3.3-3.4). Contiennent le
   tracking de particules (_spots.csv) et les figures MATLAB associées.
   Voir notes.txt dans chaque sous-dossier pour le détail.
 
-Sous-dossiers "Colloide latex diff alt", "Colloide latex diff alt après 2h",
-"Colloide latex diff alt après 2h ROI centered" :
-  Séries d'images brutes de microscopie pour l'étude du front de diffusion (rapport §3.5).
-  Uniquement des fichiers .tiff bruts (non versionnés sur ce dépôt, voir .gitignore à la
-  racine) : aucune donnée traitée n'a été extraite de ces séries.
+Data/Profil de concentration silice :
+  Étude du profil de concentration en fonction de l'altitude sur les colloïdes de silice
+  (rapport §3.5).
+
+Data/Front de diffusion latex :
+  Séries d'images brutes de microscopie pour l'étude du front de diffusion sur les colloïdes
+  de latex (rapport §3.5). Uniquement des fichiers .tiff bruts (non versionnés, voir
+  .gitignore à la racine) : aucune donnée traitée n'a été extraite de ces séries.
+
+Pas de dossier Python : l'analyse de cette partie a été faite avec ImageJ/Fiji (TrackMate)
+et MATLAB (figures .fig, modélisation .sfit), pas de script Python.

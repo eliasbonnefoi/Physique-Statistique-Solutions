@@ -1,0 +1,12 @@
+Étude du front de diffusion / profil de concentration des colloïdes de latex à différentes
+altitudes (rapport §3.5), en fonction du temps.
+
+Trois séries d'images brutes de microscopie ont été acquises :
+  - t = 0         : juste après préparation du capillaire
+  - t = 0 + 2h     : reprise après 2h de sédimentation/diffusion
+  - t = 0 + 2h, ROI recentré : même instant, région d'intérêt recentrée sur le capillaire
+
+Ces trois séries ne contiennent que des fichiers .tiff bruts, exclus de ce dépôt git (voir
+.gitignore à la racine du projet : ~660 Mo au total, trop volumineux). Le traitement Matlab
+(programme de comptage par altitude) n'a pas produit de résultat exploitable pour cette partie
+(voir rapport §3.2.4 : "le programme me renvoie une figure sans rien dessus").

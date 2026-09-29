@@ -1,5 +1,0 @@
-Série d'images brutes de microscopie (colloïdes de latex, à différentes altitudes) pour
-l'étude du front/profil de diffusion (rapport §3.5).
-
-Ce dossier ne contient que des fichiers .tiff bruts, exclus de ce dépôt git (voir .gitignore
-à la racine du projet : trop volumineux). Aucune donnée traitée n'a été extraite de cette série.
