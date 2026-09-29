@@ -1,0 +1,11 @@
+Condition : bille d'alginate mise à l'équilibre dans CaCl2 à 5 mM pendant 1h (rapport §2.2.1, Table 1).
+
+Results.csv : sortie de mesure ImageJ/Fiji sur les photos au microscope de la bille.
+Colonnes :
+  (1re colonne, sans nom) -> numéro de la mesure/bille analysée
+  Area                    -> aire de la bille mesurée, en pixels^2
+  Perim.                  -> périmètre de la bille, en pixels
+  Slice                   -> numéro de l'image (slice) de la pile dont la mesure est issue
+
+Le rayon R est déduit de l'aire (R = sqrt(Area/pi)) puis converti en mm via la calibration
+du microscope (grossissement x4, voir rapport §2.3.1, Fig. 1).

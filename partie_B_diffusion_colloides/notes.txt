@@ -1,0 +1,25 @@
+PARTIE B — Diffusion de colloïdes
+Voir rapport.pdf, section 3.
+
+CONTENU DE CE DOSSIER
+
+Partie 2.rtf :
+  Note contenant l'énergie cinétique moyenne mesurée pour les particules trackées :
+    - sur 300 spots  : Ec_moy = 7.5288e-27 J
+    - sur 1000 spots : Ec_moy = 7.3888e-27 J
+
+Sous-dossiers "Colloide silice" / "Colloide latex" :
+  Observations préliminaires au microscope (rapport §3.2, Fig. 5 et 6) : captures d'écran
+  qualitatives, avant tout traitement.
+
+Sous-dossiers "1000 img petit ROI" / "300 img grand roi" :
+  Analyse quantitative du mouvement brownien sur une pile de 1000 images (petite région
+  d'intérêt) ou 300 images (grande région d'intérêt) (rapport §3.3-3.4). Contiennent le
+  tracking de particules (_spots.csv) et les figures MATLAB associées.
+  Voir notes.txt dans chaque sous-dossier pour le détail.
+
+Sous-dossiers "Colloide latex diff alt", "Colloide latex diff alt après 2h",
+"Colloide latex diff alt après 2h ROI centered" :
+  Séries d'images brutes de microscopie pour l'étude du front de diffusion (rapport §3.5).
+  Uniquement des fichiers .tiff bruts (non versionnés sur ce dépôt, voir .gitignore à la
+  racine) : aucune donnée traitée n'a été extraite de ces séries.

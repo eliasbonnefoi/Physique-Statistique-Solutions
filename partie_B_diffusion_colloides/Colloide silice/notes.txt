@@ -1,0 +1,10 @@
+Observation préliminaire au microscope des colloïdes de silice (diamètre 5 µm),
+rapport §3.2.1, Fig. 6.
+
+Capture d'écran 2026-03-08 à 14.55.46.png : vue au microscope du capillaire contenant les
+colloïdes de silice.
+Capture_3.png : capture complémentaire (zoom ou champ de vue différent).
+
+Le rapport note qu'il y a plus de colloïdes visibles pour la silice que pour le latex dans
+cette observation, du fait de la différence de densité entre les deux fluides (répartition
+verticale différente dans le capillaire, voir §3.2.3).

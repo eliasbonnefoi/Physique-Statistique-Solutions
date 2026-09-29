@@ -1,0 +1,5 @@
+Variante de "Colloide latex diff alt après 2h" avec une région d'intérêt recentrée sur le
+capillaire (rapport §3.5).
+
+Ce dossier ne contient que des fichiers .tiff bruts, exclus de ce dépôt git (voir .gitignore
+à la racine du projet : trop volumineux). Aucune donnée traitée n'a été extraite de cette série.

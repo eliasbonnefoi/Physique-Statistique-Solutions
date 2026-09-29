@@ -1,0 +1,26 @@
+Tracking de particules browniennes sur une pile de 300 images, grande région d'intérêt (ROI)
+(rapport §3.3.2, §3.4.2).
+
+_spots.csv : export TrackMate (plugin ImageJ/Fiji de suivi de particules). Colonnes principales :
+  LABEL / ID          -> identifiant du spot détecté
+  TRACK_ID            -> identifiant de la trajectoire à laquelle appartient le spot
+  QUALITY             -> score de qualité de détection
+  POSITION_X, POSITION_Y, POSITION_Z -> position du spot, en pixels
+  POSITION_T, FRAME    -> temps / numéro d'image de la détection
+  RADIUS               -> rayon du spot détecté, en pixels
+  MEAN/MEDIAN/MIN/MAX/TOTAL/STD_INTENSITY_CH1 -> statistiques d'intensité du spot
+  CONTRAST_CH1, SNR_CH1 -> contraste et rapport signal/bruit du spot
+  (Les 3 premières lignes sont des en-têtes descriptives TrackMate ; les données numériques
+  commencent à la 4e ligne.)
+
+modelisation 300.sfit : sauvegarde du fit du modèle de diffusion réalisé sous MATLAB.
+
+fig 1.fig / fig 2.fig / fig 3.fig : figures MATLAB (trajectoires, histogrammes de déplacement —
+équivalent du dossier "1000 img petit ROI" mais pour le grand ROI).
+
+reglin.png : régression linéaire utilisée pour extraire le coefficient de diffusion D à partir
+de la relation L^2 = D*tau (rapport §3.4).
+
+scatterincertitudes.png : nuage de points avec barres d'incertitude sur la mesure de D,
+comparé à la valeur théorique de Stokes-Einstein (rapport, conclusion : D_mesuré =
+(8,12 ± 0,8) x 10^-13 m^2/s vs D_Stokes-Einstein = 4,77 x 10^-13 m^2/s).

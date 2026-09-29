@@ -1,0 +1,14 @@
+Suivi temporel de la synérèse d'une bille placée dans CaCl2 à 50 mM (rapport §2.2.2 et §2.3.2, Table 2).
+Protocole : acquisition d'une image toutes les 2 minutes pendant 20 minutes, mesure du rayon
+à chaque image avec ImageJ/Fiji pour observer l'expulsion d'eau (loi exponentielle décroissante).
+
+Results full.csv et Results full.xlsx : mêmes données, deux formats.
+Colonnes :
+  (1re colonne, sans nom) -> numéro de la mesure
+  Area                    -> aire de la bille mesurée, en pixels^2
+  Perim.                  -> périmètre de la bille, en pixels
+  Slice                   -> numéro de l'image dans la série temporelle ;
+                              le temps correspondant est t = (Slice - 1) x 2 minutes
+
+Ces données sont utilisées par le script "plot concentration temps.py" (dossier parent) pour
+ajuster le modèle R(t) = a*exp(-b*t) + c.

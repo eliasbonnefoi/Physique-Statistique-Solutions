@@ -1,0 +1,12 @@
+Mesure complémentaire du rayon des billes dans CaCl2 à 50 mM, utilisée pour vérifier/compléter
+la valeur reportée dans le Table 1 du rapport (rapport §2.3.1).
+
+Results full.csv : sortie de mesure ImageJ/Fiji.
+Colonnes :
+  (1re colonne, sans nom) -> numéro de la mesure/bille analysée
+  Area                    -> aire de la bille mesurée, en pixels^2
+  Perim.                  -> périmètre de la bille, en pixels
+  Slice                   -> numéro de l'image (slice) de la pile dont la mesure est issue
+
+"full" indique que toutes les billes photographiées ont été mesurées (pas de tri qualitatif),
+contrairement aux dossiers de condition où seules les billes les plus nettes sont exploitées.

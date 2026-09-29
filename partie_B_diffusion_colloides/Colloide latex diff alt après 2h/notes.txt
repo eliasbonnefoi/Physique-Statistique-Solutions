@@ -1,0 +1,5 @@
+Même série que "Colloide latex diff alt", reprise après 2h de sédimentation/diffusion
+(rapport §3.5), pour observer l'évolution du profil de concentration au cours du temps.
+
+Ce dossier ne contient que des fichiers .tiff bruts, exclus de ce dépôt git (voir .gitignore
+à la racine du projet : trop volumineux). Aucune donnée traitée n'a été extraite de cette série.

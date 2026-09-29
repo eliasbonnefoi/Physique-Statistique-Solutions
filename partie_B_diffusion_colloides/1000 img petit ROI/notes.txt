@@ -1,0 +1,25 @@
+Tracking de particules browniennes sur une pile de 1000 images, petite région d'intérêt (ROI)
+(rapport §3.3.1, Fig. 7-8).
+
+_spots.csv : export TrackMate (plugin ImageJ/Fiji de suivi de particules). Colonnes principales :
+  LABEL / ID          -> identifiant du spot détecté
+  TRACK_ID            -> identifiant de la trajectoire à laquelle appartient le spot
+  QUALITY             -> score de qualité de détection
+  POSITION_X, POSITION_Y, POSITION_Z -> position du spot, en pixels
+  POSITION_T, FRAME    -> temps / numéro d'image de la détection
+  RADIUS               -> rayon du spot détecté, en pixels
+  MEAN/MEDIAN/MIN/MAX/TOTAL/STD_INTENSITY_CH1 -> statistiques d'intensité du spot (niveaux de gris)
+  CONTRAST_CH1, SNR_CH1 -> contraste et rapport signal/bruit du spot
+  (Les 3 premières lignes du fichier sont des en-têtes descriptives ajoutées par TrackMate ;
+  les données numériques commencent à la 4e ligne.)
+
+Les déplacements dx, dy entre deux frames successives d'une même trajectoire (TRACK_ID) sont
+utilisés pour tracer les histogrammes de vitesse et de déplacement (Fig. 7, Fig. 8 du rapport)
+et pour estimer le coefficient de diffusion D.
+
+Modelisation 1000.sfit : sauvegarde du fit du modèle de diffusion (MSD en fonction du temps)
+réalisé sous MATLAB.
+
+courbe 1.fig / courbe 2.fig / courbe 3.fig : figures MATLAB (histogramme des vitesses,
+histogramme des déplacements dx, histogramme des déplacements dy — voir rapport Fig. 7-8).
+Ouvrir avec `openfig('courbe 1.fig')` sous MATLAB/Octave.

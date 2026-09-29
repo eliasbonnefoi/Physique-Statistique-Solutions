@@ -1,0 +1,9 @@
+Analyse de la région d'intérêt utilisée pour la partie 4 (front de diffusion / profil de
+concentration, rapport §3.5) sur les colloïdes de silice.
+
+_spots.csv : export TrackMate des particules détectées dans cette ROI (mêmes colonnes que
+dans les dossiers "1000 img petit ROI" / "300 img grand roi" : LABEL, ID, TRACK_ID, QUALITY,
+POSITION_X/Y/Z, POSITION_T, FRAME, RADIUS, intensités CH1, CONTRAST_CH1, SNR_CH1).
+
+Figure_1.png / Figure_2.png : figures générées à partir de ces données (profil de
+concentration ou comptage de particules en fonction de l'altitude, voir rapport §3.5.1).

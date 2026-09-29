@@ -1,0 +1,26 @@
+PARTIE C — Double couche électrique
+Voir rapport.pdf, section 4.
+
+Pas de sous-dossier : toutes les mesures de cette partie sont électriques (pas d'imagerie),
+un seul script suffit.
+
+script.py :
+  Trace 1/C (inverse de la capacité mesurée) en fonction de 1/sqrt(Concentration ionique),
+  et ajuste une régression linéaire (rapport Fig. 16, §4.4.2).
+  Variables :
+    C     -> valeurs mesurées liées à la capacité (issues des mesures de chrono-ampérométrie/
+             voltamétrie cyclique, rapport Table 6 ; le commentaire "# mV" dans le code est un
+             résidu de la mesure brute et ne doit pas être pris au pied de la lettre)
+    R     -> valeurs de résistance mesurées associées (Ω, rapport Table 6)
+    Conc  -> concentrations ioniques testées, en mol/L (0.1, 0.5, 1 et 10 mM)
+  La pente de la régression donne une estimation expérimentale du préfacteur théorique
+  sqrt(epsilon*kB*T/(2e^2)) / S (rapport §4.4.1) ; pente mesurée = 1,77 F^-1.M^(1/2),
+  contre 0,71 F^-1.M^(1/2) en théorie.
+
+Tracé charge.png :
+  Charge en fonction de la tension imposée (chrono-ampérométrie), utilisée pour extraire la
+  capacité C par régression linéaire (rapport Fig. 15, §4.3).
+
+Tracé concentration.png / tracé concentration .png :
+  Deux versions du tracé 1/C en fonction de 1/sqrt(Concentration) généré par script.py
+  (rapport Fig. 16).
